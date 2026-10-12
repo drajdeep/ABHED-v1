@@ -1,0 +1,717 @@
+{
+  "cpus": [
+    3
+  ],
+  "micro": {
+    "mldsa44_sign_us": 179.41682999980912,
+    "mldsa44_verify_us": 62.809880000259,
+    "ecdsa_p256_sign_us": 40.36390000010215,
+    "ecdsa_p256_verify_us": 131.08736999993198,
+    "mtl_cshake128_node_hash_us": 17.75477779999619,
+    "iterations": 500
+  },
+  "runs": [
+    {
+      "dataset": "small",
+      "hosts": 100,
+      "mode": "mldsa44",
+      "trials": [
+        {
+          "trial": 0,
+          "rrsets": 211,
+          "sign_s": 0.0566932409999481,
+          "underlying_signs": 211,
+          "verify_s": 0.02081013199995141,
+          "ladder_verify_s": 9.638999927119585e-06,
+          "underlying_verifies": 211,
+          "hash_ops_sign": {
+            "leaf": 0,
+            "int": 0
+          },
+          "hash_ops_verify": {
+            "leaf": 0,
+            "int": 0
+          },
+          "sig_bytes_total": 510620,
+          "sig_bytes_mean": 2420.0,
+          "signed_ladder_bytes": 0
+        },
+        {
+          "trial": 1,
+          "rrsets": 211,
+          "sign_s": 0.058168489000081536,
+          "underlying_signs": 211,
+          "verify_s": 0.020354348999944705,
+          "ladder_verify_s": 8.923999985199771e-06,
+          "underlying_verifies": 211,
+          "hash_ops_sign": {
+            "leaf": 0,
+            "int": 0
+          },
+          "hash_ops_verify": {
+            "leaf": 0,
+            "int": 0
+          },
+          "sig_bytes_total": 510620,
+          "sig_bytes_mean": 2420.0,
+          "signed_ladder_bytes": 0
+        },
+        {
+          "trial": 2,
+          "rrsets": 211,
+          "sign_s": 0.0574445409999953,
+          "underlying_signs": 211,
+          "verify_s": 0.020213895999859233,
+          "ladder_verify_s": 9.377999958815053e-06,
+          "underlying_verifies": 211,
+          "hash_ops_sign": {
+            "leaf": 0,
+            "int": 0
+          },
+          "hash_ops_verify": {
+            "leaf": 0,
+            "int": 0
+          },
+          "sig_bytes_total": 510620,
+          "sig_bytes_mean": 2420.0,
+          "signed_ladder_bytes": 0
+        },
+        {
+          "trial": 3,
+          "rrsets": 211,
+          "sign_s": 0.0550309190000462,
+          "underlying_signs": 211,
+          "verify_s": 0.021177482000211967,
+          "ladder_verify_s": 8.6860000010347e-06,
+          "underlying_verifies": 211,
+          "hash_ops_sign": {
+            "leaf": 0,
+            "int": 0
+          },
+          "hash_ops_verify": {
+            "leaf": 0,
+            "int": 0
+          },
+          "sig_bytes_total": 510620,
+          "sig_bytes_mean": 2420.0,
+          "signed_ladder_bytes": 0
+        },
+        {
+          "trial": 4,
+          "rrsets": 211,
+          "sign_s": 0.05685862499990435,
+          "underlying_signs": 211,
+          "verify_s": 0.020254266999927495,
+          "ladder_verify_s": 9.264999789593276e-06,
+          "underlying_verifies": 211,
+          "hash_ops_sign": {
+            "leaf": 0,
+            "int": 0
+          },
+          "hash_ops_verify": {
+            "leaf": 0,
+            "int": 0
+          },
+          "sig_bytes_total": 510620,
+          "sig_bytes_mean": 2420.0,
+          "signed_ladder_bytes": 0
+        }
+      ],
+      "sign_s_mean": 0.0568391629999951,
+      "sign_s_stdev": 0.0011645823822597776,
+      "verify_s_mean": 0.02056202519997896,
+      "verify_s_stdev": 0.0004181454623935332,
+      "rrsets": 211,
+      "sig_bytes_mean": 2420.0,
+      "sig_bytes_total": 510620,
+      "signed_ladder_bytes": 0,
+      "underlying_signs": 211,
+      "underlying_verifies": 211
+    },
+    {
+      "dataset": "small",
+      "hosts": 100,
+      "mode": "mtl",
+      "trials": [
+        {
+          "trial": 0,
+          "rrsets": 213,
+          "sign_s": 0.04417316400008531,
+          "underlying_signs": 1,
+          "verify_s": 0.039208786000017426,
+          "ladder_verify_s": 0.0002237759999843547,
+          "underlying_verifies": 1,
+          "hash_ops_sign": {
+            "leaf": 213,
+            "int": 208
+          },
+          "hash_ops_verify": {
+            "leaf": 213,
+            "int": 1352
+          },
+          "sig_bytes_total": 40653,
+          "sig_bytes_mean": 190.85915492957747,
+          "signed_ladder_bytes": 2620
+        },
+        {
+          "trial": 1,
+          "rrsets": 213,
+          "sign_s": 0.04086692999999286,
+          "underlying_signs": 1,
+          "verify_s": 0.03795733099991594,
+          "ladder_verify_s": 0.0001978969999072433,
+          "underlying_verifies": 1,
+          "hash_ops_sign": {
+            "leaf": 213,
+            "int": 208
+          },
+          "hash_ops_verify": {
+            "leaf": 213,
+            "int": 1352
+          },
+          "sig_bytes_total": 40653,
+          "sig_bytes_mean": 190.85915492957747,
+          "signed_ladder_bytes": 2620
+        },
+        {
+          "trial": 2,
+          "rrsets": 213,
+          "sign_s": 0.03912349600000198,
+          "underlying_signs": 1,
+          "verify_s": 0.03922762399997737,
+          "ladder_verify_s": 0.00023469699999623117,
+          "underlying_verifies": 1,
+          "hash_ops_sign": {
+            "leaf": 213,
+            "int": 208
+          },
+          "hash_ops_verify": {
+            "leaf": 213,
+            "int": 1352
+          },
+          "sig_bytes_total": 40653,
+          "sig_bytes_mean": 190.85915492957747,
+          "signed_ladder_bytes": 2620
+        },
+        {
+          "trial": 3,
+          "rrsets": 213,
+          "sign_s": 0.039429921000191825,
+          "underlying_signs": 1,
+          "verify_s": 0.03918257400005132,
+          "ladder_verify_s": 0.00019073700013905182,
+          "underlying_verifies": 1,
+          "hash_ops_sign": {
+            "leaf": 213,
+            "int": 208
+          },
+          "hash_ops_verify": {
+            "leaf": 213,
+            "int": 1352
+          },
+          "sig_bytes_total": 40653,
+          "sig_bytes_mean": 190.85915492957747,
+          "signed_ladder_bytes": 2620
+        },
+        {
+          "trial": 4,
+          "rrsets": 213,
+          "sign_s": 0.03933217799999511,
+          "underlying_signs": 1,
+          "verify_s": 0.038318459000038274,
+          "ladder_verify_s": 0.00019100999998045154,
+          "underlying_verifies": 1,
+          "hash_ops_sign": {
+            "leaf": 213,
+            "int": 208
+          },
+          "hash_ops_verify": {
+            "leaf": 213,
+            "int": 1352
+          },
+          "sig_bytes_total": 40653,
+          "sig_bytes_mean": 190.85915492957747,
+          "signed_ladder_bytes": 2620
+        }
+      ],
+      "sign_s_mean": 0.04058513780005342,
+      "sign_s_stdev": 0.002120976763366599,
+      "verify_s_mean": 0.038778954800000064,
+      "verify_s_stdev": 0.000599184742131711,
+      "rrsets": 213,
+      "sig_bytes_mean": 190.85915492957747,
+      "sig_bytes_total": 40653,
+      "signed_ladder_bytes": 2620,
+      "underlying_signs": 1,
+      "underlying_verifies": 1
+    },
+    {
+      "dataset": "medium",
+      "hosts": 1000,
+      "mode": "mldsa44",
+      "trials": [
+        {
+          "trial": 0,
+          "rrsets": 2011,
+          "sign_s": 0.578700746000095,
+          "underlying_signs": 2011,
+          "verify_s": 0.18973762499990698,
+          "ladder_verify_s": 8.606400001553993e-05,
+          "underlying_verifies": 2011,
+          "hash_ops_sign": {
+            "leaf": 0,
+            "int": 0
+          },
+          "hash_ops_verify": {
+            "leaf": 0,
+            "int": 0
+          },
+          "sig_bytes_total": 4866620,
+          "sig_bytes_mean": 2420.0,
+          "signed_ladder_bytes": 0
+        },
+        {
+          "trial": 1,
+          "rrsets": 2011,
+          "sign_s": 0.6050699029999578,
+          "underlying_signs": 2011,
+          "verify_s": 0.1884480530000019,
+          "ladder_verify_s": 0.00012830800005758647,
+          "underlying_verifies": 2011,
+          "hash_ops_sign": {
+            "leaf": 0,
+            "int": 0
+          },
+          "hash_ops_verify": {
+            "leaf": 0,
+            "int": 0
+          },
+          "sig_bytes_total": 4866620,
+          "sig_bytes_mean": 2420.0,
+          "signed_ladder_bytes": 0
+        },
+        {
+          "trial": 2,
+          "rrsets": 2011,
+          "sign_s": 0.5235983170000509,
+          "underlying_signs": 2011,
+          "verify_s": 0.1915681460000087,
+          "ladder_verify_s": 7.603899985042517e-05,
+          "underlying_verifies": 2011,
+          "hash_ops_sign": {
+            "leaf": 0,
+            "int": 0
+          },
+          "hash_ops_verify": {
+            "leaf": 0,
+            "int": 0
+          },
+          "sig_bytes_total": 4866620,
+          "sig_bytes_mean": 2420.0,
+          "signed_ladder_bytes": 0
+        },
+        {
+          "trial": 3,
+          "rrsets": 2011,
+          "sign_s": 0.5355193299999428,
+          "underlying_signs": 2011,
+          "verify_s": 0.19300633700004255,
+          "ladder_verify_s": 8.574699995733681e-05,
+          "underlying_verifies": 2011,
+          "hash_ops_sign": {
+            "leaf": 0,
+            "int": 0
+          },
+          "hash_ops_verify": {
+            "leaf": 0,
+            "int": 0
+          },
+          "sig_bytes_total": 4866620,
+          "sig_bytes_mean": 2420.0,
+          "signed_ladder_bytes": 0
+        },
+        {
+          "trial": 4,
+          "rrsets": 2011,
+          "sign_s": 0.5337368689999948,
+          "underlying_signs": 2011,
+          "verify_s": 0.19166180000001987,
+          "ladder_verify_s": 8.53080000524642e-05,
+          "underlying_verifies": 2011,
+          "hash_ops_sign": {
+            "leaf": 0,
+            "int": 0
+          },
+          "hash_ops_verify": {
+            "leaf": 0,
+            "int": 0
+          },
+          "sig_bytes_total": 4866620,
+          "sig_bytes_mean": 2420.0,
+          "signed_ladder_bytes": 0
+        }
+      ],
+      "sign_s_mean": 0.5553250330000082,
+      "sign_s_stdev": 0.03494951807226579,
+      "verify_s_mean": 0.190884392199996,
+      "verify_s_stdev": 0.0017906252811268396,
+      "rrsets": 2011,
+      "sig_bytes_mean": 2420.0,
+      "sig_bytes_total": 4866620,
+      "signed_ladder_bytes": 0,
+      "underlying_signs": 2011,
+      "underlying_verifies": 2011
+    },
+    {
+      "dataset": "medium",
+      "hosts": 1000,
+      "mode": "mtl",
+      "trials": [
+        {
+          "trial": 0,
+          "rrsets": 2013,
+          "sign_s": 0.3918496370001776,
+          "underlying_signs": 1,
+          "verify_s": 0.4634951889997865,
+          "ladder_verify_s": 0.00037767199978588906,
+          "underlying_verifies": 1,
+          "hash_ops_sign": {
+            "leaf": 2013,
+            "int": 2004
+          },
+          "hash_ops_verify": {
+            "leaf": 2013,
+            "int": 18272
+          },
+          "sig_bytes_total": 450101,
+          "sig_bytes_mean": 223.59711872826628,
+          "signed_ladder_bytes": 2748
+        },
+        {
+          "trial": 1,
+          "rrsets": 2013,
+          "sign_s": 0.38767542100003993,
+          "underlying_signs": 1,
+          "verify_s": 0.45818283099993096,
+          "ladder_verify_s": 0.0004984710001281201,
+          "underlying_verifies": 1,
+          "hash_ops_sign": {
+            "leaf": 2013,
+            "int": 2004
+          },
+          "hash_ops_verify": {
+            "leaf": 2013,
+            "int": 18272
+          },
+          "sig_bytes_total": 450101,
+          "sig_bytes_mean": 223.59711872826628,
+          "signed_ladder_bytes": 2748
+        },
+        {
+          "trial": 2,
+          "rrsets": 2013,
+          "sign_s": 0.3806883130000642,
+          "underlying_signs": 1,
+          "verify_s": 0.4673473360001026,
+          "ladder_verify_s": 0.0004215080000449234,
+          "underlying_verifies": 1,
+          "hash_ops_sign": {
+            "leaf": 2013,
+            "int": 2004
+          },
+          "hash_ops_verify": {
+            "leaf": 2013,
+            "int": 18272
+          },
+          "sig_bytes_total": 450101,
+          "sig_bytes_mean": 223.59711872826628,
+          "signed_ladder_bytes": 2748
+        },
+        {
+          "trial": 3,
+          "rrsets": 2013,
+          "sign_s": 0.3796894300000986,
+          "underlying_signs": 1,
+          "verify_s": 0.45927189500002896,
+          "ladder_verify_s": 0.0004542560000118101,
+          "underlying_verifies": 1,
+          "hash_ops_sign": {
+            "leaf": 2013,
+            "int": 2004
+          },
+          "hash_ops_verify": {
+            "leaf": 2013,
+            "int": 18272
+          },
+          "sig_bytes_total": 450101,
+          "sig_bytes_mean": 223.59711872826628,
+          "signed_ladder_bytes": 2748
+        },
+        {
+          "trial": 4,
+          "rrsets": 2013,
+          "sign_s": 0.37973412899987125,
+          "underlying_signs": 1,
+          "verify_s": 0.458172316999935,
+          "ladder_verify_s": 0.0003692279999540915,
+          "underlying_verifies": 1,
+          "hash_ops_sign": {
+            "leaf": 2013,
+            "int": 2004
+          },
+          "hash_ops_verify": {
+            "leaf": 2013,
+            "int": 18272
+          },
+          "sig_bytes_total": 450101,
+          "sig_bytes_mean": 223.59711872826628,
+          "signed_ladder_bytes": 2748
+        }
+      ],
+      "sign_s_mean": 0.38392738600005033,
+      "sign_s_stdev": 0.0055417753585038435,
+      "verify_s_mean": 0.4612939135999568,
+      "verify_s_stdev": 0.004031169049927933,
+      "rrsets": 2013,
+      "sig_bytes_mean": 223.59711872826628,
+      "sig_bytes_total": 450101,
+      "signed_ladder_bytes": 2748,
+      "underlying_signs": 1,
+      "underlying_verifies": 1
+    },
+    {
+      "dataset": "large",
+      "hosts": 10000,
+      "mode": "mldsa44",
+      "trials": [
+        {
+          "trial": 0,
+          "rrsets": 20011,
+          "sign_s": 6.170464495000033,
+          "underlying_signs": 20011,
+          "verify_s": 1.914647443000149,
+          "ladder_verify_s": 0.0017921840001235978,
+          "underlying_verifies": 20011,
+          "hash_ops_sign": {
+            "leaf": 0,
+            "int": 0
+          },
+          "hash_ops_verify": {
+            "leaf": 0,
+            "int": 0
+          },
+          "sig_bytes_total": 48426620,
+          "sig_bytes_mean": 2420.0,
+          "signed_ladder_bytes": 0
+        },
+        {
+          "trial": 1,
+          "rrsets": 20011,
+          "sign_s": 6.358408772999837,
+          "underlying_signs": 20011,
+          "verify_s": 1.9048822170000221,
+          "ladder_verify_s": 0.0015443690001575305,
+          "underlying_verifies": 20011,
+          "hash_ops_sign": {
+            "leaf": 0,
+            "int": 0
+          },
+          "hash_ops_verify": {
+            "leaf": 0,
+            "int": 0
+          },
+          "sig_bytes_total": 48426620,
+          "sig_bytes_mean": 2420.0,
+          "signed_ladder_bytes": 0
+        },
+        {
+          "trial": 2,
+          "rrsets": 20011,
+          "sign_s": 5.408442683999965,
+          "underlying_signs": 20011,
+          "verify_s": 1.8995963400000164,
+          "ladder_verify_s": 0.0016790989998298755,
+          "underlying_verifies": 20011,
+          "hash_ops_sign": {
+            "leaf": 0,
+            "int": 0
+          },
+          "hash_ops_verify": {
+            "leaf": 0,
+            "int": 0
+          },
+          "sig_bytes_total": 48426620,
+          "sig_bytes_mean": 2420.0,
+          "signed_ladder_bytes": 0
+        },
+        {
+          "trial": 3,
+          "rrsets": 20011,
+          "sign_s": 5.4377597620000415,
+          "underlying_signs": 20011,
+          "verify_s": 2.0365395379999427,
+          "ladder_verify_s": 0.0014861600000131148,
+          "underlying_verifies": 20011,
+          "hash_ops_sign": {
+            "leaf": 0,
+            "int": 0
+          },
+          "hash_ops_verify": {
+            "leaf": 0,
+            "int": 0
+          },
+          "sig_bytes_total": 48426620,
+          "sig_bytes_mean": 2420.0,
+          "signed_ladder_bytes": 0
+        },
+        {
+          "trial": 4,
+          "rrsets": 20011,
+          "sign_s": 5.306133079000119,
+          "underlying_signs": 20011,
+          "verify_s": 1.9153875960000732,
+          "ladder_verify_s": 0.0023413139999775012,
+          "underlying_verifies": 20011,
+          "hash_ops_sign": {
+            "leaf": 0,
+            "int": 0
+          },
+          "hash_ops_verify": {
+            "leaf": 0,
+            "int": 0
+          },
+          "sig_bytes_total": 48426620,
+          "sig_bytes_mean": 2420.0,
+          "signed_ladder_bytes": 0
+        }
+      ],
+      "sign_s_mean": 5.736241758599999,
+      "sign_s_stdev": 0.4891774704757031,
+      "verify_s_mean": 1.9342106268000407,
+      "verify_s_stdev": 0.057590223103219644,
+      "rrsets": 20011,
+      "sig_bytes_mean": 2420.0,
+      "sig_bytes_total": 48426620,
+      "signed_ladder_bytes": 0,
+      "underlying_signs": 20011,
+      "underlying_verifies": 20011
+    },
+    {
+      "dataset": "large",
+      "hosts": 10000,
+      "mode": "mtl",
+      "trials": [
+        {
+          "trial": 0,
+          "rrsets": 20013,
+          "sign_s": 4.441959967999992,
+          "underlying_signs": 1,
+          "verify_s": 6.145447229999945,
+          "ladder_verify_s": 0.004368429000123797,
+          "underlying_verifies": 1,
+          "hash_ops_sign": {
+            "leaf": 20013,
+            "int": 20005
+          },
+          "hash_ops_verify": {
+            "leaf": 20013,
+            "int": 266944
+          },
+          "sig_bytes_total": 5814821,
+          "sig_bytes_mean": 290.55219107580075,
+          "signed_ladder_bytes": 2716
+        },
+        {
+          "trial": 1,
+          "rrsets": 20013,
+          "sign_s": 4.757984324000063,
+          "underlying_signs": 1,
+          "verify_s": 7.295021936000012,
+          "ladder_verify_s": 0.007890136000014536,
+          "underlying_verifies": 1,
+          "hash_ops_sign": {
+            "leaf": 20013,
+            "int": 20005
+          },
+          "hash_ops_verify": {
+            "leaf": 20013,
+            "int": 266944
+          },
+          "sig_bytes_total": 5814821,
+          "sig_bytes_mean": 290.55219107580075,
+          "signed_ladder_bytes": 2716
+        },
+        {
+          "trial": 2,
+          "rrsets": 20013,
+          "sign_s": 4.560879445999944,
+          "underlying_signs": 1,
+          "verify_s": 6.282160971999929,
+          "ladder_verify_s": 0.004554268999982014,
+          "underlying_verifies": 1,
+          "hash_ops_sign": {
+            "leaf": 20013,
+            "int": 20005
+          },
+          "hash_ops_verify": {
+            "leaf": 20013,
+            "int": 266944
+          },
+          "sig_bytes_total": 5814821,
+          "sig_bytes_mean": 290.55219107580075,
+          "signed_ladder_bytes": 2716
+        },
+        {
+          "trial": 3,
+          "rrsets": 20013,
+          "sign_s": 4.236399778000077,
+          "underlying_signs": 1,
+          "verify_s": 6.310715763999951,
+          "ladder_verify_s": 0.004088376000026983,
+          "underlying_verifies": 1,
+          "hash_ops_sign": {
+            "leaf": 20013,
+            "int": 20005
+          },
+          "hash_ops_verify": {
+            "leaf": 20013,
+            "int": 266944
+          },
+          "sig_bytes_total": 5814821,
+          "sig_bytes_mean": 290.55219107580075,
+          "signed_ladder_bytes": 2716
+        },
+        {
+          "trial": 4,
+          "rrsets": 20013,
+          "sign_s": 4.15103543500004,
+          "underlying_signs": 1,
+          "verify_s": 6.235477532000004,
+          "ladder_verify_s": 0.0038064240000039717,
+          "underlying_verifies": 1,
+          "hash_ops_sign": {
+            "leaf": 20013,
+            "int": 20005
+          },
+          "hash_ops_verify": {
+            "leaf": 20013,
+            "int": 266944
+          },
+          "sig_bytes_total": 5814821,
+          "sig_bytes_mean": 290.55219107580075,
+          "signed_ladder_bytes": 2716
+        }
+      ],
+      "sign_s_mean": 4.429651790200023,
+      "sign_s_stdev": 0.24502441472397385,
+      "verify_s_mean": 6.4537646867999685,
+      "verify_s_stdev": 0.47442953235895324,
+      "rrsets": 20013,
+      "sig_bytes_mean": 290.55219107580075,
+      "sig_bytes_total": 5814821,
+      "signed_ladder_bytes": 2716,
+      "underlying_signs": 1,
+      "underlying_verifies": 1
+    }
+  ]
+}

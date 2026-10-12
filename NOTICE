@@ -1,0 +1,28 @@
+ABHED-v1: Authenticated Benchmarking of Hybrid Encryption-resistant DNSSEC
+Copyright 2026 Rajdeep Das
+
+Created and developed by Rajdeep Das, Research Fellow,
+Institute of Engineering & Management (IEM), Kolkata, India.
+
+Supported by the IEM-UEM Group, the India Internet Foundation (IIFON), and
+AIORI under the Ministry of Electronics and Information Technology (MeitY),
+Government of India.
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+ATTRIBUTION REQUIREMENT (Apache License 2.0, Section 4):
+Any redistribution of this work or of any Derivative Work, in Source or
+Object form, must:
+  (a) include a copy of the LICENSE file;
+  (b) retain this NOTICE file, including the creator's name above;
+  (c) retain all copyright and attribution notices in the source files; and
+  (d) carry prominent notices stating that the files were changed, if they
+      were modified.
+
+Academic use: if you use ABHED-v1, or results produced with it, in a
+publication, please cite it as described in CITATION.cff.
+
+Third-party software used by this testbed (not included in this repository)
+is licensed by its respective owners: liboqs (MIT), PowerDNS (GPL-2.0),
+dnspython (ISC), pycryptodome (BSD/Public Domain), cryptography
+(Apache-2.0 OR BSD-3-Clause), matplotlib (PSF-based).

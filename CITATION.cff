@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use ABHED-v1 or results produced with it, please cite it as below."
+title: "ABHED-v1: Authenticated Benchmarking of Hybrid Encryption-resistant DNSSEC"
+type: software
+authors:
+  - family-names: "Das"
+    given-names: "Rajdeep"
+    affiliation: "Institute of Engineering & Management (IEM), Kolkata, India"
+version: "1.0.0"
+date-released: "2026-10-12"
+license: Apache-2.0
+keywords:
+  - DNSSEC
+  - post-quantum cryptography
+  - ML-DSA
+  - Merkle Tree Ladder mode
+  - benchmarking

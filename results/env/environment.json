@@ -1,0 +1,20 @@
+{
+  "captured_at_utc": "2026-09-30T04:07:07Z",
+  "host_os": "Kali GNU/Linux Rolling",
+  "kernel": "6.19.14+kali-amd64",
+  "cpu_model": "13th Gen Intel(R) Core(TM) i5-13400",
+  "cpu_count": "4",
+  "memory_total": "7.7Gi",
+  "cpu_governor": "n/a",
+  "turbo_disabled_or_boost": "n/a",
+  "docker": "29.8.1",
+  "docker_compose": "5.5.1",
+  "cpuset_auth": "1",
+  "cpuset_resolver": "2",
+  "cpuset_client_and_bench": "3 / 3",
+  "powerdns_auth": "PowerDNS Authoritative Server 5.0.7 (C) PowerDNS.COM BV",
+  "powerdns_recursor": "PowerDNS Recursor 5.3.10 (C) PowerDNS.COM BV",
+  "pqc_stack": "liboqs 0.16.0 liboqs-python 0.16.0.1 dnspython 2.7.0 pycryptodome 3.23.0 cryptography 46.0.6",
+  "images": "pqcmtl/tools:latest=4cc85c2eff9a pqcmtl/pdns-recursor:rec-53=e9a33b1e5fc0 pqcmtl/pdns-auth:auth-50=77c8cc3717e5 ",
+  "testbed_git_commit": "n/a"
+}
